@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
     background(51);
-    drawCircle(width/2,height/2,width)
+    drawCircleHalves(width/2,height/2,width)
     noLoop();
 }
 
@@ -23,3 +23,15 @@ function drawCircle(x,y,r) {
 		drawCircle(x,y,r);
 	}
 }
+
+function drawCircleHalves(x,y,r) {
+	stroke(255);
+	noFill();
+	ellipse(x,y,r,r);
+
+	if(r>2){
+		drawCircle(x+r/2, y, r/2);
+		drawCircle(x-r/2, y, r/2);
+	}
+}
+
