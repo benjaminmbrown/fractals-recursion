@@ -1,15 +1,18 @@
 
 function setup() {
 
-    createCanvas(600, 500);
+    createCanvas(1200, 900);
     setFrameRate(30);
 
 }
 
 function draw() {
     background(51);
-    drawCircleAboveBelow(width/2,height/2,300)
-    noLoop();
+    setFrameRate(2);
+
+    cantor(44,0,330);
+  // drawCircleAboveBelow(width/2,height/2,300)
+   
 }
 
 //Simplest recursion
@@ -48,4 +51,21 @@ function drawCircleAboveBelow(x,y,r) {
 	}
 }
 
+function cantor(x,y,length){
+	var height = 30;
+	if(length >= 1){
 
+		noStroke();
+		fill(255);
+		rect(x,y,length,height/3);
+		y+= height;
+
+		cantor(x,y,length/3);
+		cantor(x+length*2/3,y,length/3);
+	}
+}
+
+function mousePressed(){
+	console.log('press');
+	 drawCircleAboveBelow(width/2,height/2,300);
+}

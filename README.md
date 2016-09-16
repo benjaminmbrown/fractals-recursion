@@ -18,3 +18,6 @@ Some recursion samples to warm up for fractals
 
 #6. ) Random 2
 <img src="https://media.giphy.com/media/3o7TKAey2b5pBOVeuc/giphy.gif"/>
+
+#7. ) Cantor set
+<img src="https://media.giphy.com/media/l0MYJd2RDYmWDwusg/giphy.gif"/>
