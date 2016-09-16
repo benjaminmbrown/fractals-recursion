@@ -41,10 +41,10 @@ function drawCircleAboveBelow(x,y,r) {
 	ellipse(x,y,r,r);
 
 	if(r>8){
-		drawCircleAboveBelow(x+r/2, y, r/2);
-		drawCircleAboveBelow(x-r/2, y, r/2);
-		drawCircleAboveBelow(x, y+r/2, r/2);
-		drawCircleAboveBelow(x, y-r/2, r/2);
+		drawCircleAboveBelow(x+r/random(4), y, r/2);
+		drawCircleAboveBelow(x-r/random(6), y, r/2);
+		drawCircleAboveBelow(x, y+r/random(5), r/2);
+		drawCircleAboveBelow(x, y-r/random(6), r/2);
 	}
 }
 

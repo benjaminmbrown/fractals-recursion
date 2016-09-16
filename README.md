@@ -12,3 +12,9 @@ Some recursion samples to warm up for fractals
 
 #4.) Recursion x,y and using same typed draw
 <img src="https://media.giphy.com/media/3oz8xNqh11IhSxO0co/giphy.gif"/>
+
+#5.) Randomization
+<img src="https://media.giphy.com/media/26uf4LLF47fBixKzm/giphy.gif"/>
+
+#6. ) Random 2
+<img src="https://media.giphy.com/media/3o7TKAey2b5pBOVeuc/giphy.gif"/>
